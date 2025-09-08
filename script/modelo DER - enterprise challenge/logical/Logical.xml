@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="34676CD9-B129-5C52-5349-E8294E3F9432" mainViewID="E5BBC6B7-CD7F-7E92-C030-7C8BF9C0ECD8">
+<createdBy>Davi</createdBy>
+<createdTime>2025-08-16 15:15:33 UTC</createdTime>
+<ownerDesignName>modelo DER - enterprise challenge</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="80B6B5A3-D15F-F771-26F4-2CA298C6C1A0">
+<createdBy>Davi</createdBy>
+<createdTime>2025-08-16 15:15:33 UTC</createdTime>
+<ownerDesignName>modelo DER - enterprise challenge</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

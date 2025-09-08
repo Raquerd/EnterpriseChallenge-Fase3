@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_10" directorySegmentName="seg_0" id="AAD4452F-923C-B3DD-2BF3-0897F4627623">
+<createdBy>Davi</createdBy>
+<createdTime>2025-08-23 15:20:09 UTC</createdTime>
+<ownerDesignName>modelo DER - enterprise challenge</ownerDesignName>
+<engineerTo>
+<item key="EBA73F6F-F8A9-B2E2-2446-7BFA374513CA" value="true"/>
+</engineerTo>
+<sourcePk>D2C0514F-54AE-C6BB-A271-14B27740747C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>603C8D6E-C878-BC9A-CE9E-D13DA585FC7C</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>BF03CE5C-E5EE-C893-BD25-633F548FC543</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
