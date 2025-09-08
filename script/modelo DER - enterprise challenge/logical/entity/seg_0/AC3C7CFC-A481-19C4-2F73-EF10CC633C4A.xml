@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="AC3C7CFC-A481-19C4-2F73-EF10CC633C4A" name="dm_lotes">
+<createdBy>Davi</createdBy>
+<createdTime>2025-08-16 15:51:49 UTC</createdTime>
+<ownerDesignName>modelo DER - enterprise challenge</ownerDesignName>
+<engineerTo>
+<item key="EBA73F6F-F8A9-B2E2-2446-7BFA374513CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_lote" id="9E3468BF-994C-2149-BF0C-9CEE21AF737A">
+<createdBy>Davi</createdBy>
+<createdTime>2025-08-16 15:52:07 UTC</createdTime>
+<commentInRDBMS><![CDATA[id de referencia do lote registrado]]></commentInRDBMS>
+<ownerDesignName>modelo DER - enterprise challenge</ownerDesignName>
+<engineerTo>
+<item key="EBA73F6F-F8A9-B2E2-2446-7BFA374513CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_lote_registro" id="E100BEC0-D8B4-E9AC-E03D-FAD1B6A428B3">
+<createdBy>Davi</createdBy>
+<createdTime>2025-08-16 15:52:28 UTC</createdTime>
+<ownerDesignName>modelo DER - enterprise challenge</ownerDesignName>
+<engineerTo>
+<item key="EBA73F6F-F8A9-B2E2-2446-7BFA374513CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="524CD586-AD3E-631C-E6C8-1043B710B3CC" name="tb_lotes PK">
+<createdBy>Davi</createdBy>
+<createdTime>2025-08-16 15:52:14 UTC</createdTime>
+<ownerDesignName>modelo DER - enterprise challenge</ownerDesignName>
+<engineerTo>
+<item key="EBA73F6F-F8A9-B2E2-2446-7BFA374513CA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9E3468BF-994C-2149-BF0C-9CEE21AF737A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

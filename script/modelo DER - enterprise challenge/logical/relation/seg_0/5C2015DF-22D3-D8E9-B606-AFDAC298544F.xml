@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="lote identificacao" directorySegmentName="seg_0" id="5C2015DF-22D3-D8E9-B606-AFDAC298544F">
+<createdBy>Davi</createdBy>
+<createdTime>2025-08-16 18:10:03 UTC</createdTime>
+<ownerDesignName>modelo DER - enterprise challenge</ownerDesignName>
+<engineerTo>
+<item key="EBA73F6F-F8A9-B2E2-2446-7BFA374513CA" value="true"/>
+</engineerTo>
+<sourcePk>524CD586-AD3E-631C-E6C8-1043B710B3CC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AC3C7CFC-A481-19C4-2F73-EF10CC633C4A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E55AFBCA-35B2-0174-2DE9-D5991F2E21B2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

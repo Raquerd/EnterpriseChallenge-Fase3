@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E55AFBCA-35B2-0174-2DE9-D5991F2E21B2" name="ft_reg_sensores">
+<createdBy>Davi</createdBy>
+<createdTime>2025-08-16 18:04:11 UTC</createdTime>
+<ownerDesignName>modelo DER - enterprise challenge</ownerDesignName>
+<engineerTo>
+<item key="EBA73F6F-F8A9-B2E2-2446-7BFA374513CA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_registro" id="1655A994-75E7-B4C1-8F35-B1AE1C1F611F">
+<createdBy>Davi</createdBy>
+<createdTime>2025-08-16 18:04:30 UTC</createdTime>
+<ownerDesignName>modelo DER - enterprise challenge</ownerDesignName>
+<engineerTo>
+<item key="EBA73F6F-F8A9-B2E2-2446-7BFA374513CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_maquina" id="A10967DA-D0BD-88AD-1E40-5BC8BBEE4FA3">
+<createdBy>Davi</createdBy>
+<createdTime>2025-08-16 18:19:20 UTC</createdTime>
+<generatorID>54DC076F-548F-2888-9838-BCB9CD222FB2</generatorID>
+<ownerDesignName>modelo DER - enterprise challenge</ownerDesignName>
+<engineerTo>
+<item key="EBA73F6F-F8A9-B2E2-2446-7BFA374513CA" value="true"/>
+</engineerTo>
+<referedAttribute>63E33922-2B0C-0058-E615-4BD0D611A3E1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sistema" id="1A770067-1BFC-38CF-9395-584189AFD406">
+<createdBy>Davi</createdBy>
+<createdTime>2025-08-23 15:22:01 UTC</createdTime>
+<generatorID>E58A7F7D-8DD6-2108-CFF9-3843D38BA3EB</generatorID>
+<ownerDesignName>modelo DER - enterprise challenge</ownerDesignName>
+<engineerTo>
+<item key="EBA73F6F-F8A9-B2E2-2446-7BFA374513CA" value="true"/>
+</engineerTo>
+<referedAttribute>70F02177-E24A-7E3A-C2FD-367B7FA0D830</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_lote" id="53C2AA12-C20C-49B9-4A4E-5F22E81C75DB">
+<createdBy>Davi</createdBy>
+<createdTime>2025-08-16 18:10:03 UTC</createdTime>
+<generatorID>5C2015DF-22D3-D8E9-B606-AFDAC298544F</generatorID>
+<ownerDesignName>modelo DER - enterprise challenge</ownerDesignName>
+<engineerTo>
+<item key="EBA73F6F-F8A9-B2E2-2446-7BFA374513CA" value="true"/>
+</engineerTo>
+<referedAttribute>9E3468BF-994C-2149-BF0C-9CEE21AF737A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="timestamp_registro" id="F0E56BBB-DBFC-543B-812F-44B6328EEF9F">
+<createdBy>Davi</createdBy>
+<createdTime>2025-08-16 18:04:38 UTC</createdTime>
+<ownerDesignName>modelo DER - enterprise challenge</ownerDesignName>
+<engineerTo>
+<item key="EBA73F6F-F8A9-B2E2-2446-7BFA374513CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT046</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_temperatura" id="F05EEB3D-986A-8CE2-1BC6-E65F7CB794DC">
+<createdBy>Davi</createdBy>
+<createdTime>2025-08-16 18:05:00 UTC</createdTime>
+<ownerDesignName>modelo DER - enterprise challenge</ownerDesignName>
+<engineerTo>
+<item key="EBA73F6F-F8A9-B2E2-2446-7BFA374513CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_corrente" id="B9E6B25B-DCE4-1E6E-CDAF-34F9D0E32E75">
+<createdBy>Davi</createdBy>
+<createdTime>2025-08-23 15:29:03 UTC</createdTime>
+<ownerDesignName>modelo DER - enterprise challenge</ownerDesignName>
+<engineerTo>
+<item key="EBA73F6F-F8A9-B2E2-2446-7BFA374513CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_vibracao" id="EAB8C608-DD90-86C4-1A5A-1D7AD48E659F">
+<createdBy>Davi</createdBy>
+<createdTime>2025-08-23 15:29:03 UTC</createdTime>
+<ownerDesignName>modelo DER - enterprise challenge</ownerDesignName>
+<engineerTo>
+<item key="EBA73F6F-F8A9-B2E2-2446-7BFA374513CA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B380CF9A-2CD2-F56D-4018-E25EAAF5595E" name="ft_reg_sensores PK">
+<createdBy>Davi</createdBy>
+<createdTime>2025-08-16 18:04:37 UTC</createdTime>
+<ownerDesignName>modelo DER - enterprise challenge</ownerDesignName>
+<engineerTo>
+<item key="EBA73F6F-F8A9-B2E2-2446-7BFA374513CA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1655A994-75E7-B4C1-8F35-B1AE1C1F611F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

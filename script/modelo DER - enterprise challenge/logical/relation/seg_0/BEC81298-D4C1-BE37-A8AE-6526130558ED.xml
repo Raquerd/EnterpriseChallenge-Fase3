@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="maquinario alerta" directorySegmentName="seg_0" id="BEC81298-D4C1-BE37-A8AE-6526130558ED">
+<createdBy>Davi</createdBy>
+<createdTime>2025-08-16 18:37:51 UTC</createdTime>
+<ownerDesignName>modelo DER - enterprise challenge</ownerDesignName>
+<engineerTo>
+<item key="EBA73F6F-F8A9-B2E2-2446-7BFA374513CA" value="true"/>
+</engineerTo>
+<sourcePk>6B95DEEB-B540-234F-485C-8B69D0E24767</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>33283075-8E92-38A3-749B-22815D171E17</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B8C86716-7C0A-8453-44A8-3674CBCFE397</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
